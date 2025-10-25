@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Red-Brick Psalm: Tumauini Church</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Georgia', 'serif'],
+                    },
+                    colors: {
+                        'brick-red': '#B22222',
+                        'parchment': '#FFF8E1',
+                        'shadow-gray': '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for aesthetic enhancements */
+        .brick-shadow {
+            box-shadow: 0 10px 15px -3px rgba(178, 34, 34, 0.3), 0 4px 6px -2px rgba(178, 34, 34, 0.1);
+        }
+        .text-border {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-parchment font-sans text-shadow-gray leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="bg-brick-red py-12 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-white text-border rounded-lg">
+                The Red-Brick Psalm
+            </h1>
+            <p class="text-xl md:text-2xl mt-3 text-parchment font-light">
+                Saint Matthias Parish Church (Tumauini, Isabela)
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+
+        <!-- Introduction -->
+        <section class="mb-12 border-l-4 border-brick-red pl-4 rounded-lg">
+            <p class="text-xl italic text-shadow-gray/80">
+                A true <strong>National Cultural Treasure</strong> of the Philippines, the Saint Matthias Parish Church in Tumauini, Isabela, isn't just a place of worship—it's a stunning, time-worn masterpiece. Celebrated for its unique all-brick architecture and rare cylindrical bell tower, this church is an essential stop for any traveler interested in history, architecture, and enduring faith.
+            </p>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Overview: An All-Brick Wonder 🧱
+            </h2>
+            <p class="mb-6">
+                Located right in the heart of the Town Plaza of Tumauini, this Spanish-era church immediately stands out. Most colonial churches in the Philippines used stone and stucco, but the Tumauini Church embraced <strong>baked red bricks</strong> for its entire construction, making it one of the most distinctive religious structures in the country. It stands as a lasting symbol of colonial heritage, artistry, and the deep faith of the region.
+            </p>
+            
+            <!-- Full Exterior Image (Uses relative file path) -->
+            <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                <img src="full_exterior.webp" 
+                     alt="Full exterior view of Saint Matthias Parish Church, showing the red brick facade and white cylindrical bell tower framed by trees against a blue sky."
+                     class="w-full h-auto object-cover rounded-md"
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Image+Loading+Error';"
+                >
+                <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                    The Tumauini Church: A masterpiece of red brick and the distinctive cylindrical bell tower.
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- History Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                A Glimpse into History 🕰️
+            </h2>
+            <p class="mb-4">The story of the Tumauini Church is one of resilience and careful craftsmanship:</p>
+            <ul class="list-disc list-inside space-y-2 ml-4">
+                <li><strong>1707:</strong> The original structure was built from light materials by the Dominican friar <strong>Francisco Núñez</strong>.</li>
+                <li><strong>1783-1805:</strong> The current, magnificent brick church was commissioned by <strong>Fr. Domingo Forto</strong> and painstakingly completed over two decades. Forto hired artisans from Pampanga to execute the intricate brickwork.</li>
+                <li><strong>20th Century:</strong> The church sustained damage during <strong>World War II</strong> but was later restored with great care to preserve its original details.</li>
+                <li><strong>Recognition:</strong> Its historical and architectural importance has been formally recognized, earning it the designation of a <strong>National Historical Landmark (1989)</strong> and, more significantly, a <strong>National Cultural Treasure</strong> by the National Museum of the Philippines.</li>
+            </ul>
+        </section>
+
+        <!-- Architectural Highlights Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Architectural Highlights ✨
+            </h2>
+            <p class="mb-6">The Tumauini Church is a prime example of <strong>Baroque architecture</strong> adapted with local materials. Its defining features are what make it a must-see:</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Highlight 1: All-Brick Design -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">All-Brick Design</h3>
+                    <p>The sheer volume of exposed red bricks is mesmerizing. This isn't just a structural element; it's the defining aesthetic. The vibrant, deep red hue often seems to change color depending on the light, appearing fiery at sunset.</p>
+                </div>
+
+                <!-- Highlight 2: Detailed Ornamentation -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Detailed Ornamentation</h3>
+                    <p>Look closely at the façade! It’s a tapestry of intricate brick carvings. You’ll find decorative elements like <strong>flowers, cherubs, and religious patterns</strong> meticulously molded and placed by the Pampanga artisans. This detail elevates the Tumauini Church from a simple building to a work of art.</p>
+                </div>
+
+                <!-- Highlight 3: The Cylindrical Bell Tower -->
+                <div class="md:col-span-2 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">The Cylindrical Bell Tower</h3>
+                    <p class="mb-4">
+                        This is perhaps the church’s most famous feature. It is the <strong>only known circular belfry</strong> from the Spanish colonial era in the entire country. Its tiered, wedding-cake shape creates a stark and beautiful contrast to the rectangular lines of the church proper. Its worn texture only adds to its historical charm.
+                    </p>
+                    
+                    <!-- Reflection and Sunset Facade Image (Uses relative file paths) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <figure>
+                            <img src="exterior_reflection.jfif" 
+                                 alt="The church and cylindrical bell tower reflected perfectly in a large puddle."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Reflection+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The striking reflection of the brick facade and the belfry after rain.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="facade_sunset.jfif" 
+                                 alt="The church facade and bell tower bathed in the warm light of sunset."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Sunset+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The facade and belfry glowing under the warm hues of sunset.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Highlight 4: Interior Ambiance -->
+                <div class="md:col-span-2">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Interior Ambiance</h3>
+                    <p class="mb-4">
+                        Stepping inside offers a moment of peaceful retreat. The sunlight streams through the arched windows, illuminating the aged wooden pews and the vast, high-ceilinged nave. The brick walls inside give off a warm, historic glow, creating an atmosphere that resonates with centuries of spiritual devotion.
+                    </p>
+                    <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                        <img src="interior_sunlight.jpg" 
+                             alt="Interior view of the church showing the wooden pews and high brick walls with arched windows."
+                             class="w-full h-auto object-cover rounded-md"
+                             onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Interior+Image+Loading+Error';"
+                        >
+                        <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                            The warm interior light and centuries-old wooden pews.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Reflection Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Experience & Reflection 🙏
+            </h2>
+            <p class="mb-6">
+                Walking the grounds and through the church feels genuinely like <strong>traveling through time</strong>. You're connecting with the craftsmanship of 18th-century artisans and the enduring faith of the local community, guided by the Dominican friars. It reflects the endurance of faith and the incredible artistry that can be achieved with simple materials.
+            </p>
+
+            <div class="bg-brick-red/10 p-6 rounded-lg border-l-4 border-brick-red space-y-3">
+                <p class="font-semibold"><span class="text-brick-red">Location:</span> Town Plaza, Tumauini, Isabela.</p>
+                <p class="font-semibold"><span class="text-brick-red">What to See:</span> The front exterior intricate brickwork, the cylindrical bell tower, and nearby convent ruins.</p>
+                <p class="font-semibold"><span class="text-brick-red">Best Time to Visit:</span> During parish feasts or local festivals for a livelier atmosphere.</p>
+                <p class="font-semibold"><span class="text-brick-red">Pro Tip:</span> Take your time — this church rewards a slow and thoughtful look.</p>
+            </div>
+
+            <p class="mt-8 text-xl font-serif italic text-center">
+                <strong>Essence:</strong> Saint Matthias Parish Church is more than just a historic landmark—it’s a living masterpiece of <strong>brick-baroque architecture</strong> and an enduring testament to devotion.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-shadow-gray text-white text-center py-6 mt-12">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Tourist Spot Blog. All rights reserved. | Visit Tumauini, Isabela.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Red-Brick Psalm: Tumauini Church</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Georgia', 'serif'],
+                    },
+                    colors: {
+                        'brick-red': '#B22222',
+                        'parchment': '#FFF8E1',
+                        'shadow-gray': '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for aesthetic enhancements */
+        .brick-shadow {
+            box-shadow: 0 10px 15px -3px rgba(178, 34, 34, 0.3), 0 4px 6px -2px rgba(178, 34, 34, 0.1);
+        }
+        .text-border {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-parchment font-sans text-shadow-gray leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="bg-brick-red py-12 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-white text-border rounded-lg">
+                The Red-Brick Psalm
+            </h1>
+            <p class="text-xl md:text-2xl mt-3 text-parchment font-light">
+                Saint Matthias Parish Church (Tumauini, Isabela)
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+
+        <!-- Introduction -->
+        <section class="mb-12 border-l-4 border-brick-red pl-4 rounded-lg">
+            <p class="text-xl italic text-shadow-gray/80">
+                A true <strong>National Cultural Treasure</strong> of the Philippines, the Saint Matthias Parish Church in Tumauini, Isabela, isn't just a place of worship—it's a stunning, time-worn masterpiece. Celebrated for its unique all-brick architecture and rare cylindrical bell tower, this church is an essential stop for any traveler interested in history, architecture, and enduring faith.
+            </p>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Overview: An All-Brick Wonder 🧱
+            </h2>
+            <p class="mb-6">
+                Located right in the heart of the Town Plaza of Tumauini, this Spanish-era church immediately stands out. Most colonial churches in the Philippines used stone and stucco, but the Tumauini Church embraced <strong>baked red bricks</strong> for its entire construction, making it one of the most distinctive religious structures in the country. It stands as a lasting symbol of colonial heritage, artistry, and the deep faith of the region.
+            </p>
+            
+            <!-- Full Exterior Image (Uses relative file path) -->
+            <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                <img src="full_exterior.webp" 
+                     alt="Full exterior view of Saint Matthias Parish Church, showing the red brick facade and white cylindrical bell tower framed by trees against a blue sky."
+                     class="w-full h-auto object-cover rounded-md"
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Image+Loading+Error';"
+                >
+                <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                    The Tumauini Church: A masterpiece of red brick and the distinctive cylindrical bell tower.
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- History Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                A Glimpse into History 🕰️
+            </h2>
+            <p class="mb-4">The story of the Tumauini Church is one of resilience and careful craftsmanship:</p>
+            <ul class="list-disc list-inside space-y-2 ml-4">
+                <li><strong>1707:</strong> The original structure was built from light materials by the Dominican friar <strong>Francisco Núñez</strong>.</li>
+                <li><strong>1783-1805:</strong> The current, magnificent brick church was commissioned by <strong>Fr. Domingo Forto</strong> and painstakingly completed over two decades. Forto hired artisans from Pampanga to execute the intricate brickwork.</li>
+                <li><strong>20th Century:</strong> The church sustained damage during <strong>World War II</strong> but was later restored with great care to preserve its original details.</li>
+                <li><strong>Recognition:</strong> Its historical and architectural importance has been formally recognized, earning it the designation of a <strong>National Historical Landmark (1989)</strong> and, more significantly, a <strong>National Cultural Treasure</strong> by the National Museum of the Philippines.</li>
+            </ul>
+        </section>
+
+        <!-- Architectural Highlights Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Architectural Highlights ✨
+            </h2>
+            <p class="mb-6">The Tumauini Church is a prime example of <strong>Baroque architecture</strong> adapted with local materials. Its defining features are what make it a must-see:</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Highlight 1: All-Brick Design -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">All-Brick Design</h3>
+                    <p>The sheer volume of exposed red bricks is mesmerizing. This isn't just a structural element; it's the defining aesthetic. The vibrant, deep red hue often seems to change color depending on the light, appearing fiery at sunset.</p>
+                </div>
+
+                <!-- Highlight 2: Detailed Ornamentation -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Detailed Ornamentation</h3>
+                    <p>Look closely at the façade! It’s a tapestry of intricate brick carvings. You’ll find decorative elements like <strong>flowers, cherubs, and religious patterns</strong> meticulously molded and placed by the Pampanga artisans. This detail elevates the Tumauini Church from a simple building to a work of art.</p>
+                </div>
+
+                <!-- Highlight 3: The Cylindrical Bell Tower -->
+                <div class="md:col-span-2 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">The Cylindrical Bell Tower</h3>
+                    <p class="mb-4">
+                        This is perhaps the church’s most famous feature. It is the <strong>only known circular belfry</strong> from the Spanish colonial era in the entire country. Its tiered, wedding-cake shape creates a stark and beautiful contrast to the rectangular lines of the church proper. Its worn texture only adds to its historical charm.
+                    </p>
+                    
+                    <!-- Reflection and Sunset Facade Image (Uses relative file paths) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <figure>
+                            <img src="exterior_reflection.jfif" 
+                                 alt="The church and cylindrical bell tower reflected perfectly in a large puddle."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Reflection+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The striking reflection of the brick facade and the belfry after rain.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="facade_sunset.jfif" 
+                                 alt="The church facade and bell tower bathed in the warm light of sunset."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Sunset+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The facade and belfry glowing under the warm hues of sunset.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Highlight 4: Interior Ambiance -->
+                <div class="md:col-span-2">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Interior Ambiance</h3>
+                    <p class="mb-4">
+                        Stepping inside offers a moment of peaceful retreat. The sunlight streams through the arched windows, illuminating the aged wooden pews and the vast, high-ceilinged nave. The brick walls inside give off a warm, historic glow, creating an atmosphere that resonates with centuries of spiritual devotion.
+                    </p>
+                    <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                        <img src="interior_sunlight.jpg" 
+                             alt="Interior view of the church showing the wooden pews and high brick walls with arched windows."
+                             class="w-full h-auto object-cover rounded-md"
+                             onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Interior+Image+Loading+Error';"
+                        >
+                        <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                            The warm interior light and centuries-old wooden pews.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Reflection Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Experience & Reflection 🙏
+            </h2>
+            <p class="mb-6">
+                Walking the grounds and through the church feels genuinely like <strong>traveling through time</strong>. You're connecting with the craftsmanship of 18th-century artisans and the enduring faith of the local community, guided by the Dominican friars. It reflects the endurance of faith and the incredible artistry that can be achieved with simple materials.
+            </p>
+
+            <div class="bg-brick-red/10 p-6 rounded-lg border-l-4 border-brick-red space-y-3">
+                <p class="font-semibold"><span class="text-brick-red">Location:</span> Town Plaza, Tumauini, Isabela.</p>
+                <p class="font-semibold"><span class="text-brick-red">What to See:</span> The front exterior intricate brickwork, the cylindrical bell tower, and nearby convent ruins.</p>
+                <p class="font-semibold"><span class="text-brick-red">Best Time to Visit:</span> During parish feasts or local festivals for a livelier atmosphere.</p>
+                <p class="font-semibold"><span class="text-brick-red">Pro Tip:</span> Take your time — this church rewards a slow and thoughtful look.</p>
+            </div>
+
+            <p class="mt-8 text-xl font-serif italic text-center">
+                <strong>Essence:</strong> Saint Matthias Parish Church is more than just a historic landmark—it’s a living masterpiece of <strong>brick-baroque architecture</strong> and an enduring testament to devotion.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-shadow-gray text-white text-center py-6 mt-12">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Tourist Spot Blog. All rights reserved. | Visit Tumauini, Isabela.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Red-Brick Psalm: Tumauini Church</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Georgia', 'serif'],
+                    },
+                    colors: {
+                        'brick-red': '#B22222',
+                        'parchment': '#FFF8E1',
+                        'shadow-gray': '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for aesthetic enhancements */
+        .brick-shadow {
+            box-shadow: 0 10px 15px -3px rgba(178, 34, 34, 0.3), 0 4px 6px -2px rgba(178, 34, 34, 0.1);
+        }
+        .text-border {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-parchment font-sans text-shadow-gray leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="bg-brick-red py-12 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-white text-border rounded-lg">
+                The Red-Brick Psalm
+            </h1>
+            <p class="text-xl md:text-2xl mt-3 text-parchment font-light">
+                Saint Matthias Parish Church (Tumauini, Isabela)
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+
+        <!-- Introduction -->
+        <section class="mb-12 border-l-4 border-brick-red pl-4 rounded-lg">
+            <p class="text-xl italic text-shadow-gray/80">
+                A true <strong>National Cultural Treasure</strong> of the Philippines, the Saint Matthias Parish Church in Tumauini, Isabela, isn't just a place of worship—it's a stunning, time-worn masterpiece. Celebrated for its unique all-brick architecture and rare cylindrical bell tower, this church is an essential stop for any traveler interested in history, architecture, and enduring faith.
+            </p>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Overview: An All-Brick Wonder 🧱
+            </h2>
+            <p class="mb-6">
+                Located right in the heart of the Town Plaza of Tumauini, this Spanish-era church immediately stands out. Most colonial churches in the Philippines used stone and stucco, but the Tumauini Church embraced <strong>baked red bricks</strong> for its entire construction, making it one of the most distinctive religious structures in the country. It stands as a lasting symbol of colonial heritage, artistry, and the deep faith of the region.
+            </p>
+            
+            <!-- Full Exterior Image (Uses relative file path) -->
+            <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                <img src="full_exterior.webp" 
+                     alt="Full exterior view of Saint Matthias Parish Church, showing the red brick facade and white cylindrical bell tower framed by trees against a blue sky."
+                     class="w-full h-auto object-cover rounded-md"
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Image+Loading+Error';"
+                >
+                <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                    The Tumauini Church: A masterpiece of red brick and the distinctive cylindrical bell tower.
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- History Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                A Glimpse into History 🕰️
+            </h2>
+            <p class="mb-4">The story of the Tumauini Church is one of resilience and careful craftsmanship:</p>
+            <ul class="list-disc list-inside space-y-2 ml-4">
+                <li><strong>1707:</strong> The original structure was built from light materials by the Dominican friar <strong>Francisco Núñez</strong>.</li>
+                <li><strong>1783-1805:</strong> The current, magnificent brick church was commissioned by <strong>Fr. Domingo Forto</strong> and painstakingly completed over two decades. Forto hired artisans from Pampanga to execute the intricate brickwork.</li>
+                <li><strong>20th Century:</strong> The church sustained damage during <strong>World War II</strong> but was later restored with great care to preserve its original details.</li>
+                <li><strong>Recognition:</strong> Its historical and architectural importance has been formally recognized, earning it the designation of a <strong>National Historical Landmark (1989)</strong> and, more significantly, a <strong>National Cultural Treasure</strong> by the National Museum of the Philippines.</li>
+            </ul>
+        </section>
+
+        <!-- Architectural Highlights Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Architectural Highlights ✨
+            </h2>
+            <p class="mb-6">The Tumauini Church is a prime example of <strong>Baroque architecture</strong> adapted with local materials. Its defining features are what make it a must-see:</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Highlight 1: All-Brick Design -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">All-Brick Design</h3>
+                    <p>The sheer volume of exposed red bricks is mesmerizing. This isn't just a structural element; it's the defining aesthetic. The vibrant, deep red hue often seems to change color depending on the light, appearing fiery at sunset.</p>
+                </div>
+
+                <!-- Highlight 2: Detailed Ornamentation -->
+                <div class="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Detailed Ornamentation</h3>
+                    <p>Look closely at the façade! It’s a tapestry of intricate brick carvings. You’ll find decorative elements like <strong>flowers, cherubs, and religious patterns</strong> meticulously molded and placed by the Pampanga artisans. This detail elevates the Tumauini Church from a simple building to a work of art.</p>
+                </div>
+
+                <!-- Highlight 3: The Cylindrical Bell Tower -->
+                <div class="md:col-span-2 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">The Cylindrical Bell Tower</h3>
+                    <p class="mb-4">
+                        This is perhaps the church’s most famous feature. It is the <strong>only known circular belfry</strong> from the Spanish colonial era in the entire country. Its tiered, wedding-cake shape creates a stark and beautiful contrast to the rectangular lines of the church proper. Its worn texture only adds to its historical charm.
+                    </p>
+                    
+                    <!-- Reflection and Sunset Facade Image (Uses relative file paths) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <figure>
+                            <img src="exterior_reflection.jfif" 
+                                 alt="The church and cylindrical bell tower reflected perfectly in a large puddle."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Reflection+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The striking reflection of the brick facade and the belfry after rain.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="facade_sunset.jfif" 
+                                 alt="The church facade and bell tower bathed in the warm light of sunset."
+                                 class="w-full h-auto object-cover rounded-md"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/B22222/FFF?text=Sunset+Image';"
+                            >
+                            <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                                The facade and belfry glowing under the warm hues of sunset.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Highlight 4: Interior Ambiance -->
+                <div class="md:col-span-2">
+                    <h3 class="text-xl font-semibold mb-2 text-brick-red">Interior Ambiance</h3>
+                    <p class="mb-4">
+                        Stepping inside offers a moment of peaceful retreat. The sunlight streams through the arched windows, illuminating the aged wooden pews and the vast, high-ceilinged nave. The brick walls inside give off a warm, historic glow, creating an atmosphere that resonates with centuries of spiritual devotion.
+                    </p>
+                    <figure class="bg-white p-2 rounded-lg brick-shadow transition transform hover:scale-[1.01] duration-300">
+                        <img src="interior_sunlight.jpg" 
+                             alt="Interior view of the church showing the wooden pews and high brick walls with arched windows."
+                             class="w-full h-auto object-cover rounded-md"
+                             onerror="this.onerror=null;this.src='https://placehold.co/800x450/B22222/FFF?text=Interior+Image+Loading+Error';"
+                        >
+                        <figcaption class="text-center mt-2 text-sm text-shadow-gray/70">
+                            The warm interior light and centuries-old wooden pews.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Reflection Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 border-b-2 border-brick-red pb-2 text-brick-red">
+                Experience & Reflection 🙏
+            </h2>
+            <p class="mb-6">
+                Walking the grounds and through the church feels genuinely like <strong>traveling through time</strong>. You're connecting with the craftsmanship of 18th-century artisans and the enduring faith of the local community, guided by the Dominican friars. It reflects the endurance of faith and the incredible artistry that can be achieved with simple materials.
+            </p>
+
+            <div class="bg-brick-red/10 p-6 rounded-lg border-l-4 border-brick-red space-y-3">
+                <p class="font-semibold"><span class="text-brick-red">Location:</span> Town Plaza, Tumauini, Isabela.</p>
+                <p class="font-semibold"><span class="text-brick-red">What to See:</span> The front exterior intricate brickwork, the cylindrical bell tower, and nearby convent ruins.</p>
+                <p class="font-semibold"><span class="text-brick-red">Best Time to Visit:</span> During parish feasts or local festivals for a livelier atmosphere.</p>
+                <p class="font-semibold"><span class="text-brick-red">Pro Tip:</span> Take your time — this church rewards a slow and thoughtful look.</p>
+            </div>
+
+            <p class="mt-8 text-xl font-serif italic text-center">
+                <strong>Essence:</strong> Saint Matthias Parish Church is more than just a historic landmark—it’s a living masterpiece of <strong>brick-baroque architecture</strong> and an enduring testament to devotion.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-shadow-gray text-white text-center py-6 mt-12">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Tourist Spot Blog. All rights reserved. | Visit Tumauini, Isabela.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
